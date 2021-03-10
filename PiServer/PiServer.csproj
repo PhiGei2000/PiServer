@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>4d3637da-9ad2-46ac-aa2d-cf8e859a2093</UserSecretsId>
+    <Version>0.0.2</Version>
+    <PackageId>PiServer</PackageId>
+    <Authors>Philipp Geil</Authors>
+    <Product />
+    <AssemblyName>PiServer</AssemblyName>
+    <RootNamespace>PiServer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="temperatureData\**" />
+    <Content Remove="temperatureData\**" />
+    <EmbeddedResource Remove="temperatureData\**" />
+    <None Remove="temperatureData\**" />
+  </ItemGroup>
+
+</Project>
